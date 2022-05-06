@@ -1,0 +1,255 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hii" ,
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hey","Hola", 
+        "Hello", 
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hii",
+        "Hello", 
+        "Thanks for asking", 
+        "Good to see you again", 
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        
+      ],
+      "responses": [
+        "Sorry, can't understand you", "Please give me more info", "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "initial",
+      "patterns": [
+        "I am not feeling well",
+        "I am not okay.",
+        "I am feeling week"
+      ],
+      "responses": [
+        "Ohho Don't worry. I'll help you.", "Be relax. Tell me Symptoms you are suffering from.", "Here I am to assist you."
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "fever", "I have a fever "," I am having temperature more than 38 degree ","feeling like shivering ","having muscles and joint aches "," headache" ," feeling faint "," having eye pain " ,  "having weakness ", "i am having temperature more than 38 degree" ," feeling like shivering" ," having muscles and joint aches" ," feeling faint ", "having weakness"
+      ],
+      "responses": [
+        "It seems like you are having FEVER, &nbsp; You may take few medicines from this=>Paracetamol,-Acetaminophen, -Aspirin, -Advil Capsule, -Voltaren &nbsp;, -Dolo, -Prednisone, -Methylprednisolone,https://www.youtube.com/watch?v=ntQbzFHZfeE,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "ringworm",
+      "patterns": [
+        "A scaly ring-shaped area ", "typically on the buttocks", "trunk "," arms and legs ", "A clear or scaly area inside the ring" , "perhaps with a scattering of red bumps" , "A round"," flat patch of itchy skin"
+      ],
+      "responses": [
+        "It seems like you have ringwarm  <br />; ,You may take few medicines:-,Griseofulvin (Grifulvin V , Gris-PEG) , Terbinafine , and Itraconazole ,Terbinafine-tablets,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through Advise drug list, Hospitals and Pharmacies", "Offering support for Advise drug , Hospitals and Pharmacies"
+      ]
+    },
+    {
+      "tag": "Blackheads",
+      "patterns": [
+        "I have dark color","  blackheads are easy to spot on the skin. They are slightly raised"," although they are not painful because they arenâ€™t inflamed like pimples. Pimples form when bacteria invade the blockage in the hair follicle"," causing redness and inflammation"
+      ],
+      "responses": [
+        "It seems like you are having blackheads,You may take few medicines and treatments from this=>The drugs contain ingredients such as salicylic acid, benzoyl peroxide, and resorcinol,Exfoliating scrubs and masks remove dead skin cells from your face and can help reduce blackheads,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "psoriasis",
+      "patterns": [
+        "I have a Red patches of skin covered with thick"," silvery scales","Small scaling spots (commonly seen in children)","Dry"," cracked skin that may bleed or itch","Itching"," burning or soreness","Thickened"," pitted or ridged nails","Swollen and stiff joints"      ],
+      "responses": [
+        "It seems like you are having psoriasis,You may take few medicines and treatments from this=> ,Corticosteroids,Vitamin D analogues,Retinoids,Calcineurin inhibitors,Salicylic acid,Coal tar,Goeckerman therapy,Aloe extract cream,Essential oils,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "dry, cracked skin",
+      "patterns": [
+        " I have a feeling of skin tightness"," especially after showering"," bathing or swimming","Skin that feels and looks rough","Slight to severe flaking"," scaling or peeling,Gray"," ashy skin,Redness","Deep cracks that may bleed"      ],
+      "responses": [
+        "It seems like you are dry and cracked skin,You may take few medicines and treatments from this=> ,CeraVe Moisturizing Cream,Vanicream Moisturizing Skin Cream,La Roche-Posay Lipikar Balm AP+ Moisturizer,Himalaya Nourshing Skin Cream,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "ulcers",
+      "patterns": [
+        "Gnawing or burning pain in your middle or upper stomach between meals or at night","Heartburn","Nausea or vomiting","Bloating"
+      ],
+      "responses": [
+        "It seems like you have ulcers,You may take few medicines:-,omeprazole (Prilosec), lansoprazole (Prevacid),rabeprazole (Aciphex), esomeprazole (Nexium) and pantoprazole (Protonix),You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "rosacea",
+      "patterns": [
+        "Facial redness","Swollen"," red bumps"," swollen eyes and red"," swollen eyelids","Enlarged nose"
+      ],
+      "responses": [
+        "It seems like you have rosacea,You may take few medicines:-,azelaic acid (Azelex, Finacea), metronidazole (Metrogel, Noritate, others) and ivermectin (Soolantra). With azelaic acid and metronidazole,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "open sores or lesions",
+      "patterns": [
+        "Difficulty breathing","Fever and chills","Headache","Itchy feeling","Joint pain or stiffness","Nausea with or without vomiting","Redness"," warmth or swelling,Sores that contain pus,Sweating"
+      ],
+      "responses": [
+        "It seems like you have open sores or lesions,You may take few medicines:- ,Laser surgery,Oatmeal baths or lotions ,absorbent powders or protective balms,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "CHICKEN POX",
+      "patterns": [
+        " I have a Fever","Loss of appetite","Headache","Tiredness and a general feeling of being unwell (malaise)"
+      ],
+      "responses": [
+        "It seems like you are having CHIKEN POX disease,You may take few medicines from this=> ,acyclovir (Zovirax, Sitavig),immune globulin intravenous (Privigen),You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "Acne",
+      "patterns": [
+        " I am Crusting of skin bumps","Papules (small red bumps)","Pustules (small red bumps containing white or yellow pus)","Redness around the skin eruptions","Scarring of the skin","Whiteheads","Blackheads"
+      ],
+      "responses": [
+        "It seems like you are having Acne,You may take few medicines from this=>- ,Retinoids and retinoid-like drugs,Antibiotics,Azelaic acid and salicylic acid,Dapsone,You can meet one of the doctor from this list.."
+      ]
+    },
+    {
+      "tag": "Eczema",
+      "patterns": [
+        "I am skin itches"," turns red"," burns"," and stings","itchy bumps called hives may pop up on your skin,over time"," the skin may thicken and feel scaly or leathery","fluid-filled blisters can form that may ooze and crust over"
+      ],
+      "responses": [
+        "It seems like you are having Eczema disease,You may take few medicines from this=> ,Topical corticosteroid creams and ointments,Systemic corticosteroids,Antibiotics,Antiviral and antifungal medications,Antihistamines,Home care-taking lukewarm baths,moisturizing every day,wearing cotton and soft fabrics etc,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "hives",
+         "patterns": [
+           "I am outbreak of swollen","pale red bumps or plaques (wheals)"
+        ],
+         "responses": [
+           "It seems like you are having hives disease,You may take few medicines from this=>Avoid triggers,Use an over-the-counter anti-itch drug,Apply cold washcloth,Take a comfortably cool bath,Wear loose, smooth-textured cotton clothing,Avoid the sun,You can meet one of the doctor from this list..."
+      ]
+    },
+    {
+      "tag": "dark circles",
+         "patterns": [
+           "dark coloration of the skin under the eyes,"
+        ],
+         "responses": [
+           "It seems like you are having dark circles,You may take few medicines from this=> ,Avoid triggers,Use an over-the-counter anti-itch drug,Apply cold washcloth,Take a comfortably cool bath,Wear loose, smooth-textured cotton clothing,Avoid the sun,You can meet one of the doctor from this list..."
+        ]
+    },
+    {
+      "tag": "Sinus Infection",
+         "patterns": [
+           "i am having Pain in the face"," itching, pain in forehead"," pain in sinuses"," loss of smell,Nasal congestion"," pain in back of the eyes, ear","I am feeling loss of smell"," pain in forehead"," runny nose"," sneezing ,pain in sinuses ,Pain in the face ,itching","I am having pain in forehead"," pain in sinuses"," Nasal congestion"," distorted sense of smell"," loss of smell"," itching"," sneezing"
+          ],
+         "responses": [
+           "It seems like you are having Sinus infection,You may take few medicines and home treatment from this=>,Flonase and Dymista (fluticasone propionate), Nasonex (mometasone furoate), hydrocortisone, Nasacort AQ (triamcinolone),Use of Nasal sprays,Staying hydrated, Breathing in steam,Raising the head during sleep,You can meet one of the doctor from this list..."
+        ]
+    },
+    {
+      "tag": "Allergic Rhinitis",
+         "patterns": [
+           "i am having Pain in the ear"," Nasal congestion"," redness"," runny nose"," post-nasal drip"," sneezing"," stuffy nose ,Eyes itchiness, puffy eyes, redness,watery eyes","I am feeling post-nasal drip"," puffy eyes","runny nose"," Nasal congestion"," sneezing "," Eyes itchiness"," Pain in the ear","I am having watery eyes"," Nasal congestion "," redness "," Pain in the ear "," post-nasal drip "," stuffy nose "," sneezing"
+          ],
+         "responses": [
+           "It seems like you are having Allergic Rhinitis,You may take few medicines and home treatment from this=>,Intranasal corticosteroids are the single most effective drug class for treating allergic rhinitis. They can significantly reduce nasal congestion as well as sneezing, itching and a runny nose,You can meet one of the doctor from this list..."
+        ]
+    },
+    {
+      "tag": "Food Allergy",
+         "patterns": [
+           "i am having Pain in the abdomen"," diarrhoea, indigestion"," nausea"," passing excessive amounts of gas"," vomiting"," flatulence","I am having flatulence"," nausea "," Pain in the abdomen ","passing excessive amounts of gas"," vomiting","I am having diarrhoea,passing excessive amounts of gas , vomiting, Pain in the abdomen "," flatulence"
+          ],
+         "responses": [
+           "It seems like you are having Food Allergy,You may take few medicines and home treatment from this=>,OTC or prescribed antihistamines such as diphenhydramine (Benadryl) may help reduce symptoms,Clean out your nose,Try an over-the-counter allergy medicine,Consider a prescription nasal spray or eye drops,Decongestants may also help relieve nasal congestion,Close your windows, and turn on the air conditioning,You can meet one of the doctor from this list..."
+        ]
+    },
+    {
+      "tag": "Anaphylaxis",
+         "patterns": [
+           "I am feeling Whole body fainting"," light-headedness","low blood pressure"," dizziness "," flushing"," difficulty breathing"," rapid breathing"," shortness of breath","wheezing","I am having rapid breathing "," Whole body fainting "," flushing","difficulty breathing ","light-headedness "," low blood pressure ","dizziness","I am having Whole body fainting "," light-headedness ","difficulty breathing ","wheezing"," low blood pressure"," flushing "," shortness of breath"
+          ],
+         "responses": [
+           "It seems like you are having Anaphylaxis,You may take few medicines and home treatment from this=>,Epinephrine (adrenaline) ","Intravenous (IV) antihistamines and cortisone ","Oxygen,etc..,You can meet one of the doctor from this list..."
+        ]
+    },
+    {
+      "tag": "Contact Dermatitis",
+         "patterns": [
+           "I am having Pain in the skin " , "rashes" , " redness ", " blister " ," fissures"," hives"," peeling","itching ","swelling","I am having swelling"," fissures"," itching on skin "," blister"," redness"," peeling","I am feeling hives"," peeling"," fissures"," swelling"," itching"," rashes on skin"
+          ],
+         "responses": [
+           "It seems like you are having Contact Dermatitis,You may take few medicines and treatment from this=> , Steroid creams or ointments,Oral medications,Avoid the irritant or allergen,Apply an anti-itch cream or lotion to the affected area,Soak in a comfortably cool bath,etc.., You can meet one of the doctor from this list..."
+        ]
+    },
+    {
+      "tag": "Cough",
+         "patterns": [
+           "I am having runny nose"," having sore throat" ," feeling Hoarseness " ," feeling shortness of breath " ," having soir taste in mouth "," Difficulty swallowing "," coughing when swallowing","i am having runny nose "," feeling Hoarseness "," feeling shortness of breath "," having soir taste in mouth "," Difficulty swallowing ", "i am having runny nose "," having sore throat "," feeling shortness of breath "," Difficulty swallowing "," coughing when swallowing" 
+          ],
+         "responses": [
+           "It seems like you are having COUGH ,You may take few medicines from this=> , Tussionex Pennkinetic , -Tessalon Perles, -Torrex, -Hydromet, -Acetaminophen / Hydrocodone, -Benylin Chesty Coughs, -Robitussin Chesty Cough, -Benylin Dry Coughs syrup, -Mucinex DM,You can meet one of the doctor from this list... "
+        ]
+    },
+    {
+      "tag": "Eye Allergies",
+         "patterns": [
+           "Iam having Red eyes"," irritated eyes,Itchiness","Tearing eyes ","runny eyes","Swollen eyelids"," Soreness"," burning,pain  in eyes ","Sensitivity to light","i am having pain in eyes"," Red eyes"," Sensitivity to light","runny eyes","burning"," Tearing eyes, Soreness"
+          ],
+         "responses": [
+           "It seems like you are having Eye Allergies,You may take few medicines and treatment from this =>, Artificial tear drops,Decongestants (with or without antihistamines),Oral antihistamines,etc.., You can meet one of the doctor from this list.."
+        ]
+    },
+    {
+      "tag": "COLD",
+         "patterns": [
+           "I am having runny nose "," sore throat" ," cough " ," congestion " ," body ache " ," head ache" ," sneezing " ," loss of smell "," loss of taste "," difficulty in breathing", "i am having difficulty in breathing "," body ache, loss of taste"," congestion "," loss of smell "," sneezing "," sore throat" , "i am having head ache"," congestion"," runny nose"," difficulty in breathing"," loss of smell "," body ache ","loss of taste" 
+          ],
+         "responses": [
+           "It seems like you are having COLD ,You may take few medicines from this=>, Nasal decongestants , -Crocin ,-Mucinex, -Tussionex , -Claritin-D 24 Hour  ,-Benadryl Allergy Plus Congestion,You can meet one of the doctor from this list... "
+        ]
+    }
+  ]
+}
