@@ -7,10 +7,10 @@ from customer.nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open("D:\Medibot\medical_chatbot\customer\intents.json", 'r') as f:
+with open("customer\intents.json", 'r') as f:
     intents = json.load(f)
 
-FILE = "D:\Medibot\medical_chatbot\data.pth"
+FILE = "data.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
